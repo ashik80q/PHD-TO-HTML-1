@@ -17,6 +17,21 @@
       max-width: 100%;
       height: auto;
   }
+  .alignLeft{
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 15px;
+  }
+  .alignRight{
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.alignCenter{
+    display: block;
+    margin-right: 0 auto 15px;
+    
+}
 /* ==================================================
     Top Header CSS
   ==================================================*/
@@ -182,7 +197,7 @@
     position: relative;
     min-height: 30px;
     padding: 15px 0;
-    border-radius: 5px;
+    border-radius:5px;
     z-index: 1;
   }
   .inner_menu::after{
@@ -264,6 +279,60 @@
     background: #333333;
     color: #fff;
  }
+/* ==================================================
+    Slider CSS
+  ==================================================*/
 
+  #slider_area{
+      margin-top: 20px;
+  }
+  .item{
+      position: relative;
+  }
+  .slider_caption{
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .slider_caption h1{
+      color: #fff;
+      font-size: 35px;
+  }
+  /* ==================================================
+    Hero area CSS
+  ==================================================*/
+  .hero_area{
+     background: #fff;
+     padding: 0;
+     padding: 0;
+  }
+  .inner_hero{
+      overflow: hidden;
+  }
+  .inner_hero h2{
+    color: #000000;
+    font-size: 86px;
+    line-height: 1em;
+    font-weight: normal;
+    margin-bottom: 15px;
+  }
+.inner_hero p{
+   color: #666666;
+   font-size: 16px;
+   font-weight: normal;
+}
+.inner_hero a{
+    float: right;
+    color: #ba2e1f;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.inner_hero a:hover{
+    color: #333333;
+}
 
 
