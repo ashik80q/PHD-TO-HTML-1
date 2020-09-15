@@ -426,3 +426,147 @@
   
     font-weight: normal;
  }
+  /* ==================================================
+   footer area CSS
+  ==================================================*/
+#footer_area{
+      background: #fff;
+      padding: 45px 0;
+  }
+.inner_footer{
+      overflow: hidden;
+  }
+.child_footer{
+   width: 21%;
+   float: left;
+   padding: 1%;
+   margin: 0 1% 10px;
+}
+.child_footer h3{
+    border-top: 1px solid #666666;
+    color: #666666;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 5px;
+ }
+ .child_footer h4{
+   color: #666666;
+   font-size: 14px;
+   margin-top: 0;
+}
+.child_footer h4 a{
+    color: #666666;
+    text-decoration: none;
+ }
+ .child_footer h4 a{
+    color: #666666;
+    text-decoration: none;
+ }
+ .child_footer h4 a:hover{
+    color:#b92d1f;
+    
+ }
+ 
+
+.child_footer h6{
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 1.3em;
+}
+.child_footer p{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 0;
+}
+.child_footer p a{
+  color: #b92d1f;
+  text-decoration: none;
+ 
+}
+.child_blog{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.child_blog .b-link{
+    color: #b92d1f;
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+}
+.child_footer ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+  }
+.child_footer ul ul{
+    display: none;
+}
+.child_footer ul li{
+    background: url(./img/link-icon.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 18px;
+    padding-bottom: 8px;
+    display: block;
+    border-bottom: 1px solid #666666;
+}
+.child_footer ul li:last-child{
+   
+    border-bottom: 0px solid #666666;
+}
+.child_footer ul li a{
+    color: #666666;
+    font-size: 14px;
+    text-decoration: none;
+}
+.child_footer ul li a:hover{
+    color: #b92d1f;
+}
+.child_footer input,
+.child_footer textarea{
+    background: #f2f2f2;
+    border: 0px solid;
+    padding: 10px 5%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+    outline: none;
+}
+.child_footer input[type="submit"]{
+
+    width:80px;
+    color: #b92d1f;
+    cursor: pointer;
+}
+.child_footer input[type="submit"]:hover{
+    background: #b92d1f;
+    color: #fff;
+
+}
+  /* ==================================================
+   footer area CSS
+  ==================================================*/
+  .copyright_area{
+      background-color: #f2f2f2;
+      padding: 20px 0;
+  }
+.inner_copyright{
+      overflow: hidden;
+  }
+.inner_copyright p{
+   margin: 0;
+   color: #919191;
+   font-size: 12px;
+}
+  .left_copyright{
+      float: left;
+      width: 60%;
+  }
+  .right_copyright{
+    float: right;
+    width: 40%;
+    text-align: right;
+  }
