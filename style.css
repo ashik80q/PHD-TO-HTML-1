@@ -334,5 +334,95 @@
 .inner_hero a:hover{
     color: #333333;
 }
+ /* ==================================================
+    work area CSS
+  ==================================================*/
+.work_area{
+      background: #f2f2f2;
+      padding: 45px 0;
 
+  }
+  .inner_work{
+    overflow: hidden;
+  }
+.child_word{
+      width: 32%;
+      float: left;
+      margin: 0 1% 10px;
+  }
+.child_word h2{
+      color: #333333;
+      font-size: 26px;
+      font-weight: normal;
+}
+.child_word p{
+    color: #878787;
+    font-size: 14px;
+    font-weight: normal;
+}
+.child_word a{
+    color: #B92D1F;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    clear: both;
+    float: right;
+    display: block;
+}
+.child_word a:hover{
+    color: #000;
+}
 
+.about_area{
+   margin-left: 0;
+}
+.about_area img{
+   border: 1px solid #dfdfdf;
+   padding: 5px;
+   display: block;
+   margin-bottom: 15px;
+ }
+ 
+.child_service{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.child_service .service_img{
+    width: 25%;
+    float: left;
+}
+.child_service .service_text{
+    width: 75%;
+    float: right;
+}
+.child_service .service_text h3{
+  color: #878787;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.child_service .service_text p{
+    margin-top: 0;
+    line-height: 1.3em;
+  }
+.testimonial_area{
+    margin-right: 0;
+}
+.child_testimonial{
+    width:100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.child_testimonial h3{
+    background: url(./img/comment.png);
+    background-repeat: no-repeat;
+   color: #989898;
+   font-size: 17px;
+   font-weight: bold;
+   padding: 15px 0 15px 65px;
+}
+.child_testimonial h3 span{
+  
+    font-weight: normal;
+ }
