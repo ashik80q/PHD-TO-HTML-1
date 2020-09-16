@@ -1,0 +1,26 @@
+/*Tablet layout*/
+@media only screen and (min-width:200px)and (max-width: 991px){
+
+    .social_area { max-width: 460px; padding-top: 14px; }
+    .inner_menu{background: none; min-height: auto;}
+    .inner_menu::after{display: none; }
+    .mean-container .mean-nav {  margin-top: 0; width: 80%; }
+    .inner_header { padding: 20px 0;}
+    #slider_area {margin-top: 0px; }
+    .inner_hero h2 { font-size: 55px; }
+}
+
+@media only screen and (min-width:200px)and (max-width: 480px){
+
+    .mini_menu { padding-top: 5px;float: left; width: 100%;}
+    .mini_menu ul, .social_area ul{ text-align: center; }
+    .logo_area, .search_area{ float: none; width: 250px; margin: 5px auto; text-align: center;}
+    .social_area ul li{ margin:0 5px; }
+    .inner_hero h2 { font-size: 25px; }
+    .inner_hero {padding-bottom: 20px; overflow: hidden;}
+    #work_area, footer{ padding: 20px 0;}
+    .child_word { width: 98%; }
+    .child_footer { width: 96%; }
+    .left_copyright { width: 100%; margin-bottom: 10px; }
+    .right_copyright { text-align: left; width: 100%;}
+}
